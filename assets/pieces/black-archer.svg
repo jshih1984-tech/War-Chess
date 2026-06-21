@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" shape-rendering="crispEdges">
+  <title>Black Archer</title>
+  <rect width="128" height="128" fill="none"/>
+  <rect x="34" y="104" width="60" height="8" fill="#151616"/>
+  <rect x="42" y="94" width="44" height="10" fill="#343a37"/>
+  <rect x="44" y="58" width="40" height="36" fill="#202625"/>
+  <rect x="52" y="46" width="24" height="18" fill="#6f5547"/>
+  <rect x="48" y="32" width="32" height="12" fill="#171a19"/>
+  <rect x="54" y="24" width="20" height="8" fill="#59635d"/>
+  <rect x="59" y="48" width="4" height="4" fill="#050606"/>
+  <rect x="70" y="48" width="4" height="4" fill="#050606"/>
+  <rect x="36" y="64" width="10" height="26" fill="#161a19"/>
+  <rect x="80" y="64" width="10" height="26" fill="#161a19"/>
+  <rect x="50" y="74" width="28" height="8" fill="#7e3656"/>
+  <rect x="92" y="36" width="6" height="46" fill="#352416"/>
+  <rect x="88" y="34" width="4" height="6" fill="#352416"/>
+  <rect x="88" y="78" width="4" height="6" fill="#352416"/>
+  <rect x="82" y="56" width="24" height="2" fill="#bda77a"/>
+  <rect x="104" y="52" width="12" height="10" fill="#8f989d"/>
+</svg>

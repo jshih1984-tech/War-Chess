@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" shape-rendering="crispEdges">
+  <title>Black King - Warlord 0</title>
+  <rect width="128" height="128" fill="none"/>
+  <rect x="28" y="104" width="72" height="10" fill="#050606"/>
+  <rect x="36" y="94" width="56" height="10" fill="#343a37"/>
+  <rect x="42" y="54" width="44" height="40" fill="#202625"/>
+  <rect x="52" y="40" width="24" height="18" fill="#6f5547"/>
+  <rect x="50" y="30" width="28" height="10" fill="#aeb8bd"/>
+  <rect x="60" y="16" width="8" height="18" fill="#eef3f5"/>
+  <rect x="54" y="22" width="20" height="6" fill="#c7d0d4"/>
+  <rect x="36" y="62" width="12" height="30" fill="#151819"/>
+  <rect x="80" y="62" width="12" height="30" fill="#151819"/>
+  <rect x="54" y="66" width="20" height="24" fill="#7d3f52"/>
+  <rect x="58" y="45" width="4" height="4" fill="#050606"/>
+  <rect x="70" y="45" width="4" height="4" fill="#050606"/>
+</svg>

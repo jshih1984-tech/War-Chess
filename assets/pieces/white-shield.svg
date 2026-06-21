@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" shape-rendering="crispEdges">
+  <title>White Shield Guard</title>
+  <rect width="128" height="128" fill="none"/>
+  <rect x="34" y="104" width="60" height="8" fill="#6b5638"/>
+  <rect x="42" y="94" width="44" height="10" fill="#d7c099"/>
+  <rect x="44" y="58" width="40" height="36" fill="#f4e9cf"/>
+  <rect x="52" y="46" width="24" height="18" fill="#f0c6a0"/>
+  <rect x="48" y="32" width="32" height="12" fill="#c3ac78"/>
+  <rect x="54" y="24" width="20" height="8" fill="#fff8df"/>
+  <rect x="59" y="48" width="4" height="4" fill="#3b3227"/>
+  <rect x="70" y="48" width="4" height="4" fill="#3b3227"/>
+  <rect x="38" y="66" width="10" height="24" fill="#c7b184"/>
+  <rect x="80" y="66" width="10" height="24" fill="#c7b184"/>
+  <rect x="50" y="74" width="28" height="8" fill="#7bb15b"/>
+  <rect x="84" y="54" width="28" height="34" fill="#d9dde0"/>
+  <rect x="88" y="58" width="20" height="24" fill="#f7fbff"/>
+  <rect x="96" y="58" width="4" height="24" fill="#879197"/>
+  <rect x="88" y="68" width="20" height="4" fill="#879197"/>
+</svg>

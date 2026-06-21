@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>西洋棋大師</title>
+    <link rel="stylesheet" href="./styles.css?v=terrain-spacing-1" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="game-area" aria-label="西洋棋遊戲">
+        <div class="top-bar">
+          <div>
+            <h1>西洋棋大師</h1>
+            <p id="statusText">白方行棋</p>
+          </div>
+          <div class="top-actions">
+            <div class="mode-group" role="group" aria-label="棋盤模式">
+              <button class="mode-button" type="button" data-mode="classic">傳統棋盤</button>
+              <button class="mode-button" type="button" data-mode="wide">戰棋棋盤</button>
+            </div>
+            <button id="resetButton" class="icon-button" type="button" aria-label="重新開始" title="重新開始">
+              ↻
+            </button>
+          </div>
+        </div>
+
+        <div class="board-info">
+          <div class="board-facts">
+            <h2>對局資訊</h2>
+            <dl class="game-facts">
+              <div>
+                <dt>回合</dt>
+                <dd id="turnLabel">白方</dd>
+              </div>
+              <div>
+                <dt>狀態</dt>
+                <dd id="stateLabel">進行中</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="ai-controls" role="group" aria-label="AI 對手">
+            <button class="ai-button" type="button" data-ai="off">雙人</button>
+            <button class="ai-button" type="button" data-ai="easy">初級</button>
+            <button class="ai-button" type="button" data-ai="normal">中級</button>
+            <button class="ai-button" type="button" data-ai="hard">高級</button>
+          </div>
+        </div>
+
+        <div id="setupControls" class="setup-controls" hidden>
+          <span id="setupHint">點棋子，再點目標格擺放。</span>
+          <div class="setup-actions">
+            <button id="resetSetupButton" class="text-button" type="button">重置布陣</button>
+            <button id="terrainButton" class="text-button" type="button">生成地形</button>
+            <button id="autoBattleButton" class="text-button" type="button" aria-pressed="false">自動對戰</button>
+            <button id="startBattleButton" class="primary-button" type="button">開局</button>
+          </div>
+        </div>
+
+        <div id="capturedBlack" class="captured-row" aria-label="白方吃掉的棋子"></div>
+        <div class="board-stage">
+          <div id="board" class="chess-board" aria-label="西洋棋棋盤"></div>
+          <div id="victoryBanner" class="victory-banner" hidden aria-live="polite">
+            <div class="victory-frame">
+              <span id="victoryBannerLabel">PLAYER WIN</span>
+              <strong>玩家勝利</strong>
+            </div>
+          </div>
+        </div>
+        <div id="capturedWhite" class="captured-row" aria-label="黑方吃掉的棋子"></div>
+      </section>
+
+      <aside class="side-panel" hidden>
+        <div class="panel-section value-panel">
+          <div class="section-heading">
+            <h2>棋子評分</h2>
+            <strong id="pieceValueTotal">2000 分</strong>
+          </div>
+          <ul id="pieceValueList" class="piece-value-list" aria-label="單方十六顆棋子的能力評分"></ul>
+        </div>
+
+        <div class="panel-section move-panel">
+          <h2>棋譜</h2>
+          <ol id="moveList" class="move-list"></ol>
+        </div>
+      </aside>
+    </main>
+
+    <script type="module" src="./src/app.js?v=terrain-spacing-1"></script>
+  </body>
+</html>
